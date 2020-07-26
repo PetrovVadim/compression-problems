@@ -1,0 +1,101 @@
+.background_color {
+  background-color: green;
+}
+
+.priority_normal {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -32px;
+}
+.priority_critical {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -16px;
+}
+.priority_blocker {
+  width: 16px;
+  height: 16px;
+  background-position: 0 0px;
+}
+
+.scale05 {
+  transform: scale(0.5, 0.5);
+}
+
+.scale09 {
+  transform: scale(0.9, 0.9);
+}
+
+.scale11 {
+  transform: scale(1.1, 1.1);
+}
+
+.scale15 {
+  transform: scale(1.5, 1.5);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: no-repeat;
+}
+.circle_black {
+  background-position: 0 0px;
+}
+.circle_red {
+  background-position: 0 -50px;
+}
+.circle_green {
+  background-position: 0 -100px;
+}
+.circle_blue {
+  background-position: 0 -150px;
+}
+.circle_yellow {
+  background-position: 0 -200px;
+}
+.repeat {
+  display: inline-block;
+  width: 130px;
+  height: 110px;
+  margin: 10px;
+  background-color: green;
+}
+.google_logo {
+  background-size: 92px 2697px;
+  background-position: 0 -1041px;
+  height: 33px;
+  width: 92px;
+}
+.staff_icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+}
+.staff_image {
+  max-height: 100%;
+  max-width: 100%;
+}
+.mvY {
+  position:absolute;
+  font-size: 200%;
+  top:75px;
+  -webkit-animation: mymoveY 2s infinite linear;
+}
+@-webkit-keyframes mymoveY {
+    0% {top: 75px;}
+    50% {top: 200px;}
+    100% {top: 75px;}
+}
+.mvX {
+  position:absolute;
+  font-size: 200%;
+  top:100px;
+  left:75px;
+  -webkit-animation: mymoveX 2s infinite linear;
+}
+@-webkit-keyframes mymoveX {
+    0% {left: 75px;}
+    50% {left: 200px;}
+    100% {left: 75px;}
+}
